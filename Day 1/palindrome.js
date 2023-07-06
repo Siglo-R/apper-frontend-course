@@ -1,4 +1,5 @@
-function isPalindrome2(word){
+
+function isPalindrome(word){
 
     let wordLength= word.length-1;
     let isTrue=true;
@@ -14,3 +15,7 @@ function isPalindrome2(word){
         }
         return isTrue;
     }
+
+const word2='reotoer'
+const reversedWord2=isPalindrome(word2)
+console.log(reversedWord2)
