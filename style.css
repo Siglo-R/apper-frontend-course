@@ -1,175 +1,176 @@
 body {
-    background-color: rgb(252, 191, 21);
-    min-height: 1930px;
-    margin: 0;
-    width: 100%;
-  }
+  background-color: rgb(252, 191, 21);
+  min-height: 1930px;
+  margin: 0;
+  width: 100%;
+}
 
-  
-  .header-container{
-    background-color: rgba(18,18,18,255);
-    height: 200px;
-    width: 100%;
-    border: none;
-    display: grid;
-    grid-template-columns: 60px 1490px 300px;
-  }
-  
-  .headermargin-column{
-    width: 0;
-    height: 100px;
-    border-bottom: 100px solid rgba(255,202,5,255);
-    border-right: 60px solid transparent;
 
-  }
-  .headertext-column{
-    font-family: 'Poppins';
-    font-size: 14px;
-    color: rgba(207,207,207,255);
-    display: grid;
-    line-height: 14px;
-  }
+.header-container{
+  background-color: rgba(18,18,18,255);
+  height: 200px;
+  width: 100%;
+  border: none;
+  display: grid;
+  grid-template-columns: 60px 1490px 300px;
+}
 
-  h2{
-    font-weight: bold;
-    font-size: 17px;
+.headermargin-column{
+  width: 0;
+  height: 100px;
+  border-bottom: 100px solid rgba(255,202,5,255);
+  border-right: 60px solid transparent;
+
+}
+.headertext-column{
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: rgba(207,207,207,255);
+  display: grid;
+  line-height: 14px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 17px;
+  color: rgba(129,129,129,255);
+}
+h4{
+  font-weight: lighter;
+  font-size: 11px;
+  color: rgba(129,129,129,255);
+}
+
+
+p{
+  font-weight: bold;
+  font-size: 12px;
     color: rgba(129,129,129,255);
-  }
-  h4{
-    font-weight: lighter;
-    font-size: 11px;
-    color: rgba(129,129,129,255);
-  }
+}
+strong{
+  font-weight:bolder;
+  color: rgba(252,191,21,255);
+}
 
-
-  p{
-    font-weight: bold;
-    font-size: 12px;
-      color: rgba(129,129,129,255);
-  }
-  strong{
-    font-weight:bolder;
-    color: rgba(252,191,21,255);
-  }
-
-  .headertext-Logo{
-    margin-top: 20px;
-  }
+.headertext-Logo{
+  margin-top: 20px;
+}
 
 
 
 
 
-  .navigationbar-container{
-    background-color: rgb(255, 193, 7);
-    margin-top:25px;
-    margin-left: 60px;
-    margin-right: 60px;
+.navigationbar-container{
+  background-color: rgb(255, 193, 7);
+  margin-top:25px;
+  margin-left: 60px;
+  margin-right: 60px;
 
-    height: 100px;
-    width: auto;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  
-  }
-    .navigationbar-search-bar{
-     height: 30px;
-     
-     background-color: rgb(255, 255, 255);
-      display: flex;
-   }
-      .search-bar input{
-       margin-left: 10px;
-       flex:1;
-       width: 1770px;
-       border:0;
-       outline:none;
-       font-size: 22px;
-       }
+  height: 100px;
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 
-    .navigationbar-itemcontainer-2{
-     height: 32px;
-     background-color: transparent;
-     display: grid;
-     grid-template-columns: 80px 70px 160px 95px 120px 60px 90px 250px;
-     grid-gap: 10px;
-    }
-
-    .navigationbar-item{
-     line-height:12px;
-     vertical-align:middle;
-     background-color: rgb(28,31,35);
-     text-align: center;
-     color:white;
-     font-family: 'Poppins';
-     font-size: 12px;
-     margin: none;
-     border: 1px solid rgb(28,31,35);
-     cursor: pointer;
-    }
-
-
-
-  .body-container{
-      position: relative;
-      background-color: rgb(248, 249, 250);
-      height: 1200px;
-      width: 100%;
-      border: none;
-  }
-
-  .mainbody-container{
-      position: absolute;
-      top: 20px;
-      left: 60px;
-      height: 90%;
-      width: 93.5%;
-      display: grid;
-      grid-template-columns: repeat(6,200px);
-      grid-template-rows: repeat(5,200px);
-      grid-row-gap: 20px;
-      grid-column-gap: 100px;
-  }
-  .mainbody-item{
-    margin: 5px;
-    line-height: 15px;
-    background-color: rgba(255,255,255,255);
-    box-shadow: 1px 1px 1px 1px rgb(197, 197, 197);
-    height: 200px;
-    width: 280px;
-    border: none;
-    cursor: pointer;
-    text-align: left;
-    color: rgba(252,191,21,255);
-  }
-
-
-  .footer-container{
-    background-color: black;
-    height: 350px;
-    width: auto;
-    border: none;
+}
+  .navigationbar-search-bar{
+   height: 30px;
+   
+   background-color: rgb(255, 255, 255);
     display: flex;
+ }
+    .search-bar input{
+     margin-left: 10px;
+     flex:1;
+     width: 1770px;
+     border:0;
+     outline:none;
+     font-size: 22px;
+     }
+
+  .navigationbar-itemcontainer-2{
+   height: 32px;
+   background-color: transparent;
+   display: grid;
+   grid-template-columns: 80px 70px 160px 95px 120px 60px 90px 250px;
+   grid-gap: 10px;
   }
-  .footer-inputcontainer{
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-    display: flex;
+
+  .navigationbar-item{
+   line-height:12px;
+   vertical-align:middle;
+   background-color: rgb(28,31,35);
+   text-align: center;
+   color:white;
+   font-family: 'Poppins';
+   font-size: 12px;
+   margin: none;
+   border: 1px solid rgb(28,31,35);
+   cursor: pointer;
   }
-  .footer-item{
-    height: 100%;
-    width: 100%;
-    border: 1px solid white;
-  }
-  .footer-note{
+
+
+
+.body-container{
     position: relative;
-    top: 20px;
-    font-weight: bold;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 12px;
-  }
+    background-color: rgb(248, 249, 250);
+    height: 1200px;
+    width: 100%;
+    border: none;
+}
 
+.mainbody-container{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    height: 90%;
+    width: 93.5%;
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: repeat(5,200px);
+    grid-row-gap: 20px;
+    grid-column-gap: 100px;
+}
+.mainbody-item{
+  margin: 5px;
+  line-height: 15px;
+  background-color: rgba(255,255,255,255);
+  box-shadow: 1px 1px 1px 1px rgb(197, 197, 197);
+  height: 200px;
+  width: 280px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: rgba(252,191,21,255);
+}
+
+
+.footer-container{
+  background-color: black;
+  height: 350px;
+  width: 100%
+  border: none;
+  display: flex;
+}
+.footer-inputcontainer{
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+.footer-item{
+  justify-content: center;
+  height: 340px;
+  width: 400px;
+  background-color: rgb(126, 126, 126);
+  border: 5px solid rgb(0, 132, 255);
+}
+.footer-note{
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
 
 
